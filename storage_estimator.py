@@ -9,3 +9,5 @@ if device_count < 0 or storage_per_device < 0:
 else:
     total_storage = device_count * storage_per_device
     print("Total storage required:", total_storage, "GB")
+    print("Total storage required:", total_storage / 1024, "TB")
+    print("Total storage required:", total_storage * 1024, "MB")
